@@ -1,0 +1,212 @@
+.div_menu_nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    font-size: 50px;
+    position: fixed;
+    width: 90vw;
+    left: 0;
+    transition: 0.9s;
+    transform: translateX(0px)!important;
+    padding-bottom: 15px;
+}
+.div_menu_nav a{
+    text-decoration: none;
+    color: orange;
+    margin: 15px 0;
+    transition: 0.9s;
+    font-family: 'Montserrat', sans-serif;
+}
+.div_menu_nav a:hover{
+    cursor: pointer;
+    color: white;
+}
+.ocultar{
+    display: none;
+}
+.ocultarMenu{
+    transform: translateX(-600px)!important;
+}
+nav {
+    background-color: black;
+    position: fixed;
+    width: 100vw;
+}
+nav i{
+    font-size: 30px;
+    color: white;
+    padding: 15px;
+}
+nav i:hover{
+    color: orange;
+    cursor: pointer;
+    transition: 0.9s;
+}
+header{
+    padding-top: 70px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 45px;
+    color: orange;
+    background-color: black;
+}
+header p{
+    padding: 15px 0;
+    font-size: 20px;
+}
+main{
+    background-color: black;
+    padding: 15px 0;
+}
+section{
+    background-color: rgb(39, 38, 38);
+    margin: 30px 0;
+    padding: 70px 15px 10px;
+}
+h2{
+    color: red;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+h3{
+    color: white;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+.div_menu{
+    margin-top: 30px;
+}
+.div_menu div{
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    background-color: black;
+    color: white;
+}
+footer i{
+    color: red;
+    padding: 0 5px;
+}
+footer i:hover{
+    transition: 0.9s;
+    color: orange;
+    cursor: pointer;
+}
+footer h4{
+    padding: 5px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.social_media{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 20px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@media only screen and (min-width: 675px){   
+    .div_menu_nav{
+        width: 75vw;
+    }
+    nav i{
+        font-size: 45px;
+    }
+    header{
+        font-size: 60px;
+    }
+    header p{
+        font-size: 45px;
+    }
+    h2{
+        font-size: 50px;
+    }
+    h3{
+        font-size: 45px;
+    }
+    footer h4{
+        font-size: 30px;
+        padding: 10px;
+    }
+    .social_media{
+        font-size: 45px;
+    }
+}
+
+@media only screen and (min-width: 775px){   
+    .div_menu_nav{
+        font-size: 75px;
+        width: 50vw;
+    }
+    nav i{
+        font-size: 50px;
+    }
+    header{
+        font-size: 75px;
+    }
+    header p{
+        font-size: 50px;
+    }
+    h2{
+        font-size: 60px;
+    }
+    h3{
+        font-size: 50px;
+    }
+    footer h4{
+        font-size: 45px;
+        padding: 15px 9px;
+    }
+    .social_media{
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width: 1100px){   
+    .div_menu_nav{
+        width: 45vw;
+    }
+    nav i{
+        font-size: 60px;
+    }
+    header{
+        font-size: 90px;
+        padding-top: 90px;
+    }
+    header p{
+        font-size: 60px;
+    }
+    section{
+        padding: 85px 10px 10px;
+    }
+    h2{
+        font-size: 75px;
+    }
+    h3{
+        font-size: 60px;
+    }
+    footer h4{
+        font-size: 50px;
+        padding: 15px 9px;
+    }
+    .social_media{
+        font-size: 60px;
+    }
+}
+
+@media only screen and (min-width: 1330px){   
+    .div_menu_nav{
+        width: 40vw;
+    }
+    section{
+        padding: 85px 20px 10px;
+    }
+}
